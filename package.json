@@ -1,5 +1,5 @@
 {
-  "name": "snowplow-tracker",
+  "name": "yf-snowplow-tracker-no-globals",
   "version": "2.6.0",
   "devDependencies": {
     "JSON": "~1.0.0",
@@ -27,11 +27,12 @@
     "Fred Blundun",
     "Joshua Beemster"
   ],
-  "description": "JavaScript tracker for Snowplow",
+  "description": "JavaScript tracker for Snowplow without globals",
   "repository": {
     "type": "git",
     "url": "https://github.com/snowplow/snowplow-javascript-tracker.git"
   },
+  "main": "src/js/snowplow.js",
   "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
   "keywords": [
     "tracking",
@@ -40,5 +41,5 @@
     "open source"
   ],
   "license": "Simplified BSD",
-  "private": true
+  "private": false
 }
