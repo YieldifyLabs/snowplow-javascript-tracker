@@ -40,7 +40,7 @@
 		proxies = require('./lib/proxies'),
 		cookie = require('browser-cookie-lite'),
 		detectors = require('./lib/detectors'),
-		json2 = require('JSON'),
+		json2 = JSON,
 		sha1 = require('sha1'),
 		links = require('./links'),
 		forms = require('./forms'),
