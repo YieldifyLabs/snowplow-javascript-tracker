@@ -1,6 +1,6 @@
 {
-  "name": "snowplow-tracker",
-  "version": "2.6.0",
+  "name": "yi-snowplow-tracker",
+  "version": "2.6.1",
   "dependencies": {
     "browser-cookie-lite": "0.3.1",
     "jstimezonedetect": "1.0.5",
@@ -21,6 +21,7 @@
     "lodash-cli": "2.4.2",
     "semver": "2.2.1"
   },
+  "main": "src/js/snowplow.js",
   "contributors": [
     "Alex Dean",
     "Simon Andersson",
@@ -41,5 +42,5 @@
     "open source"
   ],
   "license": "Simplified BSD",
-  "private": true
+  "private": false
 }
