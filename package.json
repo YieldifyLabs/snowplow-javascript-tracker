@@ -1,5 +1,5 @@
 {
-  "name": "yf-snowplow-tracker-no-globals",
+  "name": "yi-snowplow-tracker",
   "version": "2.6.0",
   "devDependencies": {
     "JSON": "~1.0.0",
@@ -30,10 +30,9 @@
   "description": "JavaScript tracker for Snowplow without globals",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowplow/snowplow-javascript-tracker.git"
+    "url": "https://github.com/YieldifyLabs/snowplow-javascript-tracker.git"
   },
   "main": "src/js/snowplow.js",
-  "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
   "keywords": [
     "tracking",
     "web analytics",
