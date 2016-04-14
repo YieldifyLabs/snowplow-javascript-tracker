@@ -29,12 +29,12 @@
     "Fred Blundun",
     "Joshua Beemster"
   ],
-  "description": "JavaScript tracker for Snowplow",
+  "description": "JavaScript tracker for Snowplow without globals",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowplow/snowplow-javascript-tracker.git"
+    "url": "https://github.com/YieldifyLabs/snowplow-javascript-tracker.git"
   },
-  "bugs": "https://github.com/snowplow/snowplow-javascript-tracker/issues",
+  "main": "src/js/snowplow.js",
   "keywords": [
     "tracking",
     "web analytics",
