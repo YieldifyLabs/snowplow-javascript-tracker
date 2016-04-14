@@ -16,7 +16,7 @@
 ;(function() {
 
 	var
-		json2 = require('JSON'),
+		json2 = JSON,
 		base64 = require('./base64'),
 
 		object = typeof exports !== 'undefined' ? exports : this;
