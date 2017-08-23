@@ -1,6 +1,6 @@
 {
   "name": "yi-snowplow-tracker",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "dependencies": {
     "browser-cookie-lite": "0.3.1",
     "jstimezonedetect": "1.0.5",
@@ -34,7 +34,6 @@
     "type": "git",
     "url": "https://github.com/YieldifyLabs/snowplow-javascript-tracker.git"
   },
-  "main": "src/js/snowplow.js",
   "keywords": [
     "tracking",
     "web analytics",
